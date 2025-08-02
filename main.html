@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styleit</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color:#f0e7d5;
+            color:#212842;
+        }
+        header{
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #212842;
+            color: #f0e7d5;
+            padding-bottom: 10px;
+            flex-direction: row-reverse;
+        }
+        nav{
+            padding-top: 20px;
+            word-spacing: 20px;
+            font-size: 20px;
+
+        }
+        a{
+            color:#f0e7d5
+        }
+        a:active{
+            color: rgba(94, 40, 144, 0.585);
+        }
+        .poster{
+            text-align: center;
+          
+            background-color:#212842;
+
+        }
+        .poster img {
+            width: 100%;
+            height: 500px;
+            object-fit:cover
+        }
+        .poster button{
+            padding: 20px;
+            margin: 10px;
+            border: 5px solid rgb(212, 202, 191);
+            background-color:#212842;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .cat-list, .shop-list
+        {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap:40px
+        }
+        .cate ,most-shop{
+              padding: 40px 20px;
+             text-align: center;
+        }
+        .cat{
+             background: #212842;
+                padding: 15px;
+                width: 200px;
+                box-shadow: 0 0 10px rgba(126, 141, 130, 0.1);
+                border-radius: 10px;
+                color: #f0e7d5;
+                text-align: center;
+        }
+        .cats{
+             background: #212842;
+                padding: 15px;
+                width: 300px;
+                box-shadow: 0 0 10px rgba(16, 128, 50, 0.1);
+                border-radius: 10px;
+                color: #f0e7d5;
+                text-align: center;
+        }
+        .cat img , .cats img {
+            width: 100%;
+            border-radius: 30px;
+        } 
+           .most-shop h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color:#f0e7d5;
+            background-color: #212842;
+    }
+    .about{
+        margin-top:20px ;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+        background: #f0e7d5;
+    
+        color: #212842;
+     
+    }
+    .about img {
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    .abt{
+        margin-top: 100px;
+        padding: 30px;
+    }
+      footer {
+      background: #212842;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #f0e7d5;
+    }
+    .social-icons img {
+      width: 24px;
+      margin: 0 8px;
+      vertical-align: middle;
+    }
+   
+
+    </style>
+    <header>
+       
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="about.html">About-us</a>
+            <a href="card.html">card</a></nav>
+            <div> <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: largests;padding-right: 750px;"><i>Style-It</i></h1>
+        </div>
+    </header>
+    <section class="poster">
+        <img src="p5.jpg" alt="poster pic">
+        <button> <a href="shop.html">shop now</a></button>
+
+    </section class="cate">
+    <h2 style=" text-align: center;
+            margin-bottom: 20px;
+            color:rgb(6, 6, 6);">shop as per categories</h2>
+    <div class="cat-list">
+        <div class="cat"><a href="tee.html"><img src="t2.jpg" alt=""></a>
+            TEES</div>
+          <div class="cat"><a href="jean.html"><img src="bottom.jpg" alt=""></a>BOTTOM</div>
+            <div class="cat"><a href="jacket.html"><img src="jacket.jpg" alt=""></a>JACKET</div>
+              <div class="cat"><a href="sheo.html"><img src="s.jpg" alt=""></a>SHEO</div>
+              
+        
+    </div>
+     <section class="most-shop">
+        <h2>NEW ARRIVALS - NEW ARRIVALS - NEW ARRIVALS - NEW ARRIVALS - NEW ARRIVALS - NEW ARRIVALS - NEW ARRIVALS - NEW </h2>
+        <div class="shop-list">
+        <div class="cats"><img src="new1.jpg" alt=""></div>
+          <div class="cats"><img src="new2.jpg" alt=""></div>
+            <div class="cats"><img src="new3.jpg" alt=""></div>
+              <div class="cats"><img src="new4.jpg" alt=""></div>
+                    
+    </div>
+     </section>
+     <section class="about">
+        <img src="tees.jpg" alt="">
+        <div class="abt">
+          <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: largests;"><i>Style-It</i></h1>
+        <p>we started with a simple idea: why should fashion be limited by gender? What began as a small dream in a bedroom studio has grown into a movement that stands for self-love, freedom, and identity without rules. We design unisex clothing that fits you—not a label. Inspired by the people around us, by street culture, by everyday moments and bold dreams, our pieces are made for real lives and real bodies. From soft everyday tees to standout jackets, we pour heart into every fabric, stitch, and style. This brand is a reflection of you—raw, real, and ready to stand out. Thank you for being part of the journey.</p></div>
+            <img src="o.jpg" alt="">
+     </section>
+   <footer>
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"> Insta</a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook"> Facebook</a>
+    </div>
+    <p>Privacy Notice | Terms & Conditions</p>
+    <p>&copy; 2025 Ice Cream Heaven. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

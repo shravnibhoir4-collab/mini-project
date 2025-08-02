@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f0e4d5;
+  padding: 30px;
+}
+header{   
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #212842;
+            color: bisque;
+            padding-bottom: 10px;
+            flex-direction: row-reverse;
+        }
+        nav{
+            padding-top: 20px;
+            word-spacing: 20px;
+            font-size: 20px;
+            padding-bottom: 20px;
+    
+
+        }
+        a{
+            color:beige
+        }
+        a:active{
+            color: rgb(177, 151, 201);
+        }
+
+.container {
+    padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+
+  background-color: #212842;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  color: #f0e4d5;
+  margin-bottom: 10px;
+}
+
+.offer {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color:antiquewhite;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+   
